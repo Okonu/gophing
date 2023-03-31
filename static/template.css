@@ -1,0 +1,18 @@
+body {
+    min-height: 150%;
+    background-image: url(/images/learntomine.jpg);
+    background-blend-mode: cover;
+}
+
+.welcome {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: lightskyblue;
+}
+
+.center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/static/template.css">
+        <title>Welcome {{.Sale}}</title>
+    </head>
+    <body>
+        <div class="WelcomeCenter">
+            Last Day: {{.Sale}}, {{.Time}}
+        </div>
+        <form action="/" method="GET">
+            <input type="text" name="sale" placeholder="New Sale">
+            <button type="submit">Update Sale</button>
+        </form>
+    </body>
+</html>
